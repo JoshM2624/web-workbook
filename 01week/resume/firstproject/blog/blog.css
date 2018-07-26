@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: lightblue;
+}
+nav {
+  background-color: lightgrey;
+  background-size: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0000;
+  text-transform: uppercase;
+  text-size: 100;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+/* Left column */
+.leftcolumn {
+  position: center !important;
+  float: center !important;
+  width: 75%;
+}
+
+/* Add a card effect for articles */
+.card {
+  position: center !important;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
